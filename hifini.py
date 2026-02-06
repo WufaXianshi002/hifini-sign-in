@@ -14,7 +14,7 @@ def start(cookie):
     msg = ""
     try:
         # 先获取签到的参数
-        sign_index = "https://www.hifini.com/"
+        sign_index = "https://www.hifiti.com/"
         headers = {
             'Cookie': cookie,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
@@ -27,7 +27,7 @@ def start(cookie):
 
         # 发送 POST 请求签到
         rsp = requests.post(
-            url="https://www.hifini.com/sg_sign.htm",
+            url="https://www.hifiti.com/sg_sign.htm",
             headers={
                 'Cookie': cookie,
                 'x-requested-with': 'XMLHttpRequest'
