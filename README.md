@@ -5,7 +5,8 @@
 1. 青龙面板创建订阅，然后复制以下命令到名称中：
 
 ```shell
-ql repo https://github.com/KunCheng-He/hifini-sign-in.git "hifini.py" "" ""
+ql repo https://github.com/WufaXianshi002/hifini-sign-in.git "hifini.py" "" ""
+
 ```
 
 ![订阅管理](https://github.com/KunCheng-He/hifini-sign-in/assets/48958733/325aa8ec-68dd-47ed-9ca7-27357a50e4fa)
